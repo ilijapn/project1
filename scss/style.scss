@@ -24,5 +24,11 @@
 }
 
 .navbar {
-	opacity: 0.9;
+	background-color: transparent;
+}
+
+.navbar-brand {
+  img {
+  height: 50px;
+  }
 }
