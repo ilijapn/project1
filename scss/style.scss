@@ -10,8 +10,12 @@
 }
 
 .header-content {
-	width: 90vh;
-	padding-top: 25vh;
+	@media (min-width: 768px) {  
+		width: 90vh;
+		padding-top: 10%; 
+}
+	width: 90%;
+	padding-top: 50%;
 }
 
 .header-img{
